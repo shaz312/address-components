@@ -16,7 +16,7 @@ public class AddressUtility {
 	//regular expression 01000-98859
     private Pattern zipRegex = Pattern.compile("(0[123456789][0-9]{3})|[1-8][0-9]{4}|(9[0-8][0-8][0-5][0-9])");
     //regular expression No/no12345
-    private Pattern numRegex = Pattern.compile("([nN][Oo]\s(\\d+))|([nN][Oo](\\d+))");
+    private Pattern numRegex = Pattern.compile("([nN][Oo]\\s(\\d+))|([nN][Oo](\\d+))");
     //regular expression street only Jalan 
     private Pattern streetRegex = Pattern.compile("([jJ][aA][lL][aA][nN]\\s(\\w+))");
     //

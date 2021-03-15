@@ -17,8 +17,6 @@ public class Application {
         String text_address=input.nextLine();
         
         test_address.add(new String(text_address));
-       // test_address.add("No 40, Jalan Impian Setia 1 Saujana Impian 01000 Melaka");
-       // test_address.add("NO 56, Jalan Nelayan 19/B, Seksyen 19, 40300 Shah Alam, Selangor");
 
         AddressUtility addressUtility = new AddressUtility();
 
